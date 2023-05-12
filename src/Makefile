@@ -6,8 +6,6 @@ smclient: client.c
 
 clean:
 	rm  -rf smredis smclient
-
-show:
-	firefox  https://build-your-own.org/redis/01_intro_redis &
+	
 git-push:
 	git push origin
